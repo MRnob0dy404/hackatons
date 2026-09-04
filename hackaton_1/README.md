@@ -1,58 +1,43 @@
 # PyLearn — Learn Python by Doing
 
-**PyLearn** is an interactive web app that teaches Python one concept at a time. For each topic you get a short, plain-language explanation, then a **fill-in-the-code exercise**. When you submit, your code is checked automatically: if it's correct, you move on; if it's wrong, the app reveals the correct answer **and explains why it works** — so every mistake becomes a lesson.
-
----
+PyLearn is a beginner-friendly web app that teaches Python step by step through short explanations and guided coding exercises.
 
 ## What it does
 
-- **Explain → Practice → Check** loop for each lesson:
-  1. A bite-sized explanation of a Python concept (e.g. variables, loops, functions).
-  2. A partially written code snippet with a gap for you to fill in.
-  3. Instant feedback: ✅ correct, or ❌ with the **right answer and a clear reason** why it's right.
-- **Learn from mistakes** — wrong answers always come with an explanation, not just a red cross.
-- **Progressive path** — lessons build from basics (print, variables) toward loops, conditionals, and functions.
-- **Runs entirely in the browser** — no installation, no login, no setup for the learner.
+Each lesson introduces one Python concept with a short explanation and example. The learner then completes four fill-in-the-code exercises about the same topic.
+
+The learning flow is:
+
+Explain → Practice → Check → Feedback
+
+Answers are checked automatically. If an answer is correct, the learner receives confirmation and an explanation. If an answer is wrong, PyLearn shows the correct solution and explains why it works.
+
+Lessons follow a progressive learning path, starting with basic topics such as print statements and variables, before moving on to conditionals, loops and functions.
+
+Progress is stored locally in the browser, so no account or login is required.
 
 ## Who it is for
 
-- **Absolute beginners** taking their first steps in programming.
-- **Students and self-learners** who want structured, guided practice instead of a blank editor.
-- **People without access to formal coding courses** who need a free, low-barrier way to start.
+PyLearn is designed for:
 
-No prior programming experience is required — only a device with a web browser.
+- Absolute beginners with no previous programming experience
+- Students learning Python for the first time
+- Self-learners who want a structured way to practise
+- People who find starting with an empty code editor difficult
+
+The exercises are intentionally short and guided so that beginners can focus on understanding one concept at a time.
 
 ## Which SDG it addresses and why
 
-**SDG 4 — Quality Education.**
+PyLearn addresses *SDG 4 — Quality Education*.
 
-PyLearn supports **inclusive, equitable, and free access to a valuable modern skill: coding.** Learning Python normally requires paid courses, a set-up development environment, or a teacher to check your work and explain your errors. PyLearn removes those barriers: it delivers the *explanation, the practice, and the personalized feedback* that a tutor would give — for free, in any browser. By making the "why" behind each answer visible, it builds real understanding rather than rote copying, which is the essence of quality education.
+Learning programming can require paid courses, teachers, software installation or prior technical knowledge. PyLearn lowers these barriers by providing a free, browser-based learning environment that combines explanations, practical exercises and immediate feedback.
+
+Because the app runs directly in the browser and does not require an account or additional software, it makes introductory programming education more accessible to a wider group of learners.
 
 ## How to run it
 
-**Use it online (recommended):**
-Open the deployed link in any modern browser — that's it. No sign-up or installation needed.
+Use it online:
+To visit our Bolt page and start learning right away, go to the following URL in any modern browser that's it, no sign-up or installation needed:
 
-> Live app: `<paste your Bolt.new / deployment URL here>`
-
-**Run it locally (from the source code):**
-
-1. Make sure you have **Node.js** installed (v18 or newer).
-2. Clone the repository:
-   ```bash
-   git clone <your-repo-url>
-   cd pylearn
-   ```
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
-4. Start the app:
-   ```bash
-   npm run dev
-   ```
-5. Open the URL shown in the terminal (usually `http://localhost:5173`) in your browser.
-
----
-
-*Built with Bolt.new for the AI for Good Hackathon — Week 1 (SDG 4: Quality Education).*
+🔗 Live app: https://pylearn-python-learn-lhvb.bolt.host

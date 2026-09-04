@@ -1,0 +1,5 @@
+PyLearn is designed for beginners, but it still makes several assumptions. The current version is only available in English and requires a modern device, a web browser, and internet access. This may exclude people with limited English skills, limited digital access, or certain visual or motor impairments. Although no prior Python knowledge is required, users still need basic digital skills.
+
+The app can also be used in the wrong way. Learners may reveal or copy the correct answer without trying to understand the exercise. This could make the progress system look successful while little actual learning takes place. Another limitation is that PyLearn checks predefined answers. A valid alternative solution may therefore be marked as incorrect.
+
+For these reasons, PyLearn should be used as a beginner practice tool rather than as a replacement for a teacher or a complete programming course. Its main purpose is to support structured practice and help learners understand basic Python concepts.
