@@ -1,6 +1,6 @@
 # PyLearn — Learn Python by Doing
 
-PyLearn is a beginner-friendly web app that teaches Python step by step through short explanations and guided coding exercises.
+PyLearn is a beginner-friendly web app that teaches Python step by step through short explanations and guided coding exercises. (made by Lucas Hop and Luuk Aalders)
 
 ## What it does
 
